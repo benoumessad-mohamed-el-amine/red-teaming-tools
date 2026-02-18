@@ -10,14 +10,6 @@ A collection of Python-based security tools designed for educational purposes an
 
 This is a curated collection of Python security tools focused on providing hands-on learning opportunities for information security professionals and students. Each tool is designed to be modular, well-documented, and suitable for authorized security assessments in controlled environments.
 
-## Repository Structure
-
-```
-tool-python/
-├── README.md               # Project documentation
-├── wifi_dos.py            # WiFi security analysis tool
-└── backup/                # Auto-generated backup directory
-```
 
 ## Getting Started
 
@@ -32,8 +24,7 @@ tool-python/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd tool-python
+git clone git@github.com:benoumessad-mohamed-el-amine/red-teaming-tools.git
 ```
 
 2. Review the requirements for specific tools you want to use
@@ -42,7 +33,7 @@ cd tool-python
 
 4. Run tools with appropriate privileges:
 ```bash
-sudo python3 <tool_name>.py
+sudo python3 wifi_dos.py
 ```
 
 ## Tools Included
@@ -124,22 +115,9 @@ Before reporting issues, ensure you have:
 - [Python Security Best Practices](https://owasp.org/)
 - [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/)
 
-## Maintenance
+Documentation improvements
 
-This repository is actively maintained. Check back regularly for:
-- Security updates
-- New tool additions
-- Bug fixes
-- Documentation improvements
 
-## License
-
-[Add your license here]
-
-## Authors & Contributors
-
-- [Your Name/Organization]
-- Community contributors welcome
 
 ## Support & Contact
 
